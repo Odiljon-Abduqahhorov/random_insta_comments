@@ -3,9 +3,9 @@ import random
 
 L = Instaloader()
 
-L.login("masuda_sweets_namangan", "Web09%programmer")
+L.login("username", "password")
 
-shortcode = "DEep0h3N6OB"
+shortcode = "short_code_of_post"
 post = Post.from_shortcode(L.context, shortcode)
 
 comments = []
